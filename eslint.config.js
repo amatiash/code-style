@@ -16,6 +16,7 @@ export default [
     jsx: true,
     arrowParens: true,
     braceStyle: 'stroustrup',
+    quoteProps: 'as-needed'
     // ...
   }),
   // ...you other config items
