@@ -17,12 +17,10 @@ export default [
         arrowParens: true,
         braceStyle: 'stroustrup',
         quoteProps: 'as-needed',
-    // ...
     }),
     {
         rules: {
             '@stylistic/function-call-spacing': ['error', 'never'],
         },
     },
-    // ...you other config items
 ]
