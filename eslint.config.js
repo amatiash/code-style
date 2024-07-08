@@ -27,6 +27,11 @@ export default [
             '@stylistic/function-paren-newline': ['error', 'multiline'],
             '@stylistic/generator-star-spacing': ['error', 'both'],
             '@stylistic/implicit-arrow-linebreak': 'off',
+            '@stylistic/jsx-child-element-spacing': 'error',
+            '@stylistic/jsx-closing-bracket-location': ['error', {
+                nonEmpty: 'tag-aligned',
+                selfClosing: false,
+            }],
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
