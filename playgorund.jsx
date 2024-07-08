@@ -8,6 +8,7 @@ const component = () => {
             <Hello
                 lastName="Smith"
                 firstName="John"
+                div={<div />}
             />
 
         </>

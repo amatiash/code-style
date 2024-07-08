@@ -32,6 +32,11 @@ export default [
                 nonEmpty: 'tag-aligned',
                 selfClosing: false,
             }],
+            '@stylistic/jsx-curly-brace-presence': ['error', {
+                props: 'never',
+                children: 'never',
+                propElementValues: 'always',
+            }],
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
