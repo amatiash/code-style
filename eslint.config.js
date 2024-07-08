@@ -27,6 +27,7 @@ export default [
             // Included in customize: @stylistic/block-spacing
             '@stylistic/brace-style': ['error', 'stroustrup', { allowSingleLine: false }],
             // Included in customize: @stylistic/comma-dangle
+            // TODO @stylistic/comma-spacing
             '@stylistic/function-call-argument-newline': ['error', 'consistent'],
             '@stylistic/function-call-spacing': ['error', 'never'],
             '@stylistic/function-paren-newline': ['error', 'multiline'],
