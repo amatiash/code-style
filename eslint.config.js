@@ -20,7 +20,15 @@ export default [
     }),
     {
         rules: {
+            '@stylistic/array-bracket-newline': 'off',
+            '@stylistic/array-element-newline': ['error', 'consistent'],
+            '@stylistic/function-call-argument-newline': ['error', 'consistent'],
             '@stylistic/function-call-spacing': ['error', 'never'],
+            '@stylistic/function-paren-newline': ['error', 'multiline'],
+            '@stylistic/generator-star-spacing': ['error', 'both'],
+            '@stylistic/implicit-arrow-linebreak': 'off',
+
+            '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
     },
 ]
