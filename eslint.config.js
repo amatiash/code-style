@@ -15,13 +15,18 @@ export default [
         semi: false,
         jsx: true,
         arrowParens: true,
-        braceStyle: 'stroustrup',
         quoteProps: 'as-needed',
     }),
     {
         rules: {
             '@stylistic/array-bracket-newline': 'off',
+            // Included in customize: @stylistic/array-bracket-spacing
             '@stylistic/array-element-newline': ['error', 'consistent'],
+            // Included in customize: @stylistic/arrow-parens
+            // Included in customize: @stylistic/arrow-spacing
+            // Included in customize: @stylistic/block-spacing
+            '@stylistic/brace-style': ['error', 'stroustrup', { allowSingleLine: false }],
+            // Included in customize: @stylistic/comma-dangle
             '@stylistic/function-call-argument-newline': ['error', 'consistent'],
             '@stylistic/function-call-spacing': ['error', 'never'],
             '@stylistic/function-paren-newline': ['error', 'multiline'],

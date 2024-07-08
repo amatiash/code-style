@@ -6,6 +6,10 @@ function bar(_o, _t, _tr) {}
 function baz(_o, _t, _tr) {}
 fn()
 
+function nop() {
+    fn()
+}
+
 foo('one', 'two', 'three')
 // or
 foo(
