@@ -27,12 +27,18 @@ export default [
             // Included in customize: @stylistic/block-spacing
             '@stylistic/brace-style': ['error', 'stroustrup', { allowSingleLine: false }],
             // Included in customize: @stylistic/comma-dangle
-            // TODO @stylistic/comma-spacing
+            // Included in customize: @stylistic/comma-spacing
+            // Included in customize: @stylistic/comma-style
+            // Included in customize: @stylistic/computed-property-spacing
+            // Included in customize: @stylistic/dot-location
+            // Included in customize: @stylistic/eol-last
             '@stylistic/function-call-argument-newline': ['error', 'consistent'],
             '@stylistic/function-call-spacing': ['error', 'never'],
             '@stylistic/function-paren-newline': ['error', 'multiline'],
             '@stylistic/generator-star-spacing': ['error', 'both'],
             '@stylistic/implicit-arrow-linebreak': 'off',
+            // Included in customize: @stylistic/indent
+            // Included in customize: @stylistic/indent-binary-ops
             '@stylistic/jsx-child-element-spacing': 'error',
             '@stylistic/jsx-closing-bracket-location': ['error', {
                 nonEmpty: 'tag-aligned',
