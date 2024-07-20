@@ -44,12 +44,23 @@ export default [
                 nonEmpty: 'tag-aligned',
                 selfClosing: false,
             }],
+            // Included in customize: @stylistic/jsx-closing-tag-location
             '@stylistic/jsx-curly-brace-presence': ['error', {
                 props: 'never',
                 children: 'never',
                 propElementValues: 'always',
             }],
+            '@stylistic/jsx-curly-newline': ['error',
+                {
+                    multiline: 'consistent',
+                    singleline: 'forbid',
+                },
+            ],
+            // Included in customize: @stylistic/jsx-curly-spacing
             '@stylistic/object-curly-spacing': ['error', 'never'],
+            '@stylistic/jsx-equals-spacing': ['error', 'never'],
+            // Included in customize: @stylistic/jsx-first-prop-new-line
+            // Included in customize: @stylistic/jsx-function-call-newline
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
