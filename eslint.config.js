@@ -61,12 +61,17 @@ export default [
             '@stylistic/jsx-equals-spacing': ['error', 'never'],
             // Included in customize: @stylistic/jsx-first-prop-new-line
             // Included in customize: @stylistic/jsx-function-call-newline
-            '@stylistic/jsx-indent': ['error', 4,
+            '@stylistic/jsx-indent': ['error',
+                4,
                 {
                     checkAttributes: true,
                     indentLogicalExpressions: true,
                 },
             ],
+            // Included in customize: @stylistic/jsx-indent-props
+            // Included in customize: @stylistic/jsx-max-props-per-line
+            // Ignored: @stylistic/jsx-newline
+            // Included in customize: @stylistic/jsx-one-expression-per-line
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
