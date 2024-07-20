@@ -15,7 +15,8 @@ const component = () => {
                 active
                 validate
                 name="John"
-                tel={5555555} />
+                tel={5555555}
+            />
 
             <Hello firstName="John" lastName="Smith" />
             <Hello

@@ -40,10 +40,7 @@ export default [
             // Included in customize: @stylistic/indent
             // Included in customize: @stylistic/indent-binary-ops
             '@stylistic/jsx-child-element-spacing': 'error',
-            '@stylistic/jsx-closing-bracket-location': ['error', {
-                nonEmpty: 'tag-aligned',
-                selfClosing: false,
-            }],
+            // Included in customize: @stylistic/jsx-closing-bracket-location
             // Included in customize: @stylistic/jsx-closing-tag-location
             '@stylistic/jsx-curly-brace-presence': ['error', {
                 props: 'never',
