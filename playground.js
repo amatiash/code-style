@@ -18,7 +18,7 @@ foo(
     'three',
 )
 
-bar('one', 'two', { one: 1, two: 2 })
+bar('one', 'two', {one: 1, two: 2})
 
 baz('one', 'two', (x) => {
     console.log(x)

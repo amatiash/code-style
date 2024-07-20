@@ -4,9 +4,9 @@ import eslintTs from 'typescript-eslint'
 import stylistic from '@stylistic/eslint-plugin'
 
 export default [
-    { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
-    { languageOptions: { parserOptions: { ecmaFeatures: { jsx: true } } } },
-    { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
+    {files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}']},
+    {languageOptions: {parserOptions: {ecmaFeatures: {jsx: true}}}},
+    {languageOptions: {globals: {...globals.browser, ...globals.node}}},
     eslintJs.configs.recommended,
     ...eslintTs.configs.recommended,
     stylistic.configs.customize({
@@ -25,7 +25,7 @@ export default [
             // Included in customize: @stylistic/arrow-parens
             // Included in customize: @stylistic/arrow-spacing
             // Included in customize: @stylistic/block-spacing
-            '@stylistic/brace-style': ['error', 'stroustrup', { allowSingleLine: false }],
+            '@stylistic/brace-style': ['error', 'stroustrup', {allowSingleLine: false}],
             // Included in customize: @stylistic/comma-dangle
             // Included in customize: @stylistic/comma-spacing
             // Included in customize: @stylistic/comma-style
@@ -49,6 +49,7 @@ export default [
                 children: 'never',
                 propElementValues: 'always',
             }],
+            '@stylistic/object-curly-spacing': ['error', 'never'],
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
