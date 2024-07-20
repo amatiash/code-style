@@ -72,6 +72,18 @@ export default [
             // Included in customize: @stylistic/jsx-max-props-per-line
             // Ignored: @stylistic/jsx-newline
             // Included in customize: @stylistic/jsx-one-expression-per-line
+            '@stylistic/jsx-pascal-case': 'error',
+            '@stylistic/jsx-props-no-multi-spaces': 'error',
+            // Included in customize: @stylistic/jsx-quotes
+            '@stylistic/jsx-self-closing-comp': 'error',
+            '@stylistic/jsx-sort-props': ['error',
+                {
+                    callbacksLast: true,
+                    shorthandFirst: true,
+                    noSortAlphabetically: true,
+                    reservedFirst: true,
+                },
+            ],
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },

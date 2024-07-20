@@ -11,6 +11,12 @@ const component = () => {
                 div={<div />}
             />
 
+            <Hello
+                active
+                validate
+                name="John"
+                tel={5555555} />
+
             <Hello firstName="John" lastName="Smith" />
             <Hello
                 firstName="John"
