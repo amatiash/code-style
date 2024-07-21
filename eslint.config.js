@@ -113,6 +113,9 @@ export default [
             // Included in customize: @stylistic/member-delimiter-style
             // Ignored: @stylistic/multiline-comment-style
             // Included in customize: @stylistic/multiline-ternary
+            // Included in customize: @stylistic/new-parens
+            // Ignored: @stylistic/newline-per-chained-call
+            '@stylistic/no-confusing-arrow': 'error',
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
