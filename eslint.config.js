@@ -47,12 +47,10 @@ export default [
                 children: 'never',
                 propElementValues: 'always',
             }],
-            '@stylistic/jsx-curly-newline': ['error',
-                {
-                    multiline: 'consistent',
-                    singleline: 'forbid',
-                },
-            ],
+            '@stylistic/jsx-curly-newline': ['error', {
+                multiline: 'consistent',
+                singleline: 'forbid',
+            }],
             // Included in customize: @stylistic/jsx-curly-spacing
             '@stylistic/object-curly-spacing': ['error', 'never'],
             '@stylistic/jsx-equals-spacing': ['error', 'never'],
@@ -73,14 +71,12 @@ export default [
             '@stylistic/jsx-props-no-multi-spaces': 'error',
             // Included in customize: @stylistic/jsx-quotes
             '@stylistic/jsx-self-closing-comp': 'error',
-            '@stylistic/jsx-sort-props': ['error',
-                {
-                    callbacksLast: true,
-                    shorthandFirst: true,
-                    noSortAlphabetically: true,
-                    reservedFirst: true,
-                },
-            ],
+            '@stylistic/jsx-sort-props': ['error', {
+                callbacksLast: true,
+                shorthandFirst: true,
+                noSortAlphabetically: true,
+                reservedFirst: true,
+            }],
             // Included in customize: @stylistic/jsx-tag-spacing
             // Included in customize: @stylistic/jsx-wrap-multilines
             // Included in customize: @stylistic/key-spacing
@@ -91,6 +87,25 @@ export default [
                 'unix',
             ],
             // Ignored: @stylistic/lines-around-comment
+            '@stylistic/lines-between-class-members': ['error', {
+                enforce: [
+                    {
+                        blankLine: 'always',
+                        prev: '*',
+                        next: 'method',
+                    },
+                    {
+                        blankLine: 'always',
+                        prev: 'method',
+                        next: 'field',
+                    },
+                    {
+                        blankLine: 'never',
+                        prev: 'field',
+                        next: 'field',
+                    },
+                ],
+            }],
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
