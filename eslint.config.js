@@ -81,6 +81,16 @@ export default [
                     reservedFirst: true,
                 },
             ],
+            // Included in customize: @stylistic/jsx-tag-spacing
+            // Included in customize: @stylistic/jsx-wrap-multilines
+            // Included in customize: @stylistic/key-spacing
+            // Included in customize: @stylistic/keyword-spacing
+            // Ignored: @stylistic/line-comment-position
+            '@stylistic/linebreak-style': [
+                process.platform === 'win32' ? 'off' : 'error',
+                'unix',
+            ],
+            // Ignored: @stylistic/lines-around-comment
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
