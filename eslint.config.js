@@ -116,6 +116,16 @@ export default [
             // Included in customize: @stylistic/new-parens
             // Ignored: @stylistic/newline-per-chained-call
             '@stylistic/no-confusing-arrow': 'error',
+            // Included in customize: @stylistic/no-extra-parens
+            // Ignored: @stylistic/no-extra-semi
+            // Included in customize: @stylistic/no-floating-decimal
+            // Included in customize: @stylistic/no-mixed-operators
+            // Included in customize: @stylistic/no-mixed-spaces-and-tabs
+            // Included in customize: @stylistic/no-multi-spaces
+            // Included in customize: @stylistic/no-multiple-empty-lines
+            // Included in customize: @stylistic/no-tabs
+            // Included in customize: @stylistic/no-trailing-spaces
+            // Included in customize: @stylistic/no-whitespace-before-property
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
