@@ -58,3 +58,5 @@ if (f534) {
 else {
     // ...
 }
+
+var fooc = bar > baz ? (_f424 > _f425 ? 1 : 3) : 2

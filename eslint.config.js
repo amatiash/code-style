@@ -83,7 +83,9 @@ export default [
             // Included in customize: @stylistic/keyword-spacing
             // Ignored: @stylistic/line-comment-position
             '@stylistic/linebreak-style': [
-                process.platform === 'win32' ? 'off' : 'error',
+                process.platform === 'win32'
+                    ? 'off'
+                    : 'error',
                 'unix',
             ],
             // Ignored: @stylistic/lines-around-comment
@@ -106,6 +108,11 @@ export default [
                     },
                 ],
             }],
+            // Ignored: @stylistic/max-len
+            // Included in customize: @stylistic/max-statements-per-line
+            // Included in customize: @stylistic/member-delimiter-style
+            // Ignored: @stylistic/multiline-comment-style
+            // Included in customize: @stylistic/multiline-ternary
 
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
