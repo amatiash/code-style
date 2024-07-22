@@ -126,7 +126,9 @@ export default [
             // Included in customize: @stylistic/no-tabs
             // Included in customize: @stylistic/no-trailing-spaces
             // Included in customize: @stylistic/no-whitespace-before-property
+            // Ignored: @stylistic/nonblock-statement-body-position
 
+            curly: 'error',
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },
     },

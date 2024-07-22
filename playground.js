@@ -45,6 +45,10 @@ const _f427 = (_foo) =>
         bar()
     )
 
+const _f428 = (_foo) => (
+    bar()
+)
+
 _f424()
 _f425()
 _f426()
@@ -53,7 +57,7 @@ _f427()
 const f534 = true
 
 if (f534) {
-    // ...
+    console.log('foo')
 }
 else {
     // ...
