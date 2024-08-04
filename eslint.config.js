@@ -10,7 +10,6 @@ export default [
     eslintJs.configs.recommended,
     ...eslintTs.configs.recommended,
     stylistic.configs.customize({
-        indent: 4,
         semi: false,
         jsx: true,
         arrowParens: true,
@@ -36,8 +35,8 @@ export default [
             '@stylistic/function-paren-newline': ['error', 'multiline'],
             '@stylistic/generator-star-spacing': ['error', 'both'],
             '@stylistic/implicit-arrow-linebreak': 'off',
-            // Included in customize: @stylistic/indent
-            // Included in customize: @stylistic/indent-binary-ops
+            '@stylistic/indent': ['error', 4, {SwitchCase: 1}],
+            '@stylistic/indent-binary-ops': ['error', 4],
             '@stylistic/jsx-child-element-spacing': 'error',
             // Included in customize: @stylistic/jsx-closing-bracket-location
             // Included in customize: @stylistic/jsx-closing-tag-location
@@ -61,7 +60,7 @@ export default [
                     indentLogicalExpressions: true,
                 },
             ],
-            // Included in customize: @stylistic/jsx-indent-props
+            '@stylistic/jsx-indent-props': ['error', 4],
             // Included in customize: @stylistic/jsx-max-props-per-line
             // Ignored: @stylistic/jsx-newline
             // Included in customize: @stylistic/jsx-one-expression-per-line
@@ -121,7 +120,7 @@ export default [
             // Included in customize: @stylistic/no-mixed-spaces-and-tabs
             // Included in customize: @stylistic/no-multi-spaces
             // Included in customize: @stylistic/no-multiple-empty-lines
-            // Included in customize: @stylistic/no-tabs
+            '@stylistic/no-tabs': 'error',
             // Included in customize: @stylistic/no-trailing-spaces
             // Included in customize: @stylistic/no-whitespace-before-property
             // Ignored: @stylistic/nonblock-statement-body-position
