@@ -52,7 +52,6 @@ export default [
                 singleline: 'forbid',
             }],
             // Included in customize: @stylistic/jsx-curly-spacing
-            '@stylistic/object-curly-spacing': ['error', 'never'],
             '@stylistic/jsx-equals-spacing': ['error', 'never'],
             // Included in customize: @stylistic/jsx-first-prop-new-line
             // Included in customize: @stylistic/jsx-function-call-newline
@@ -127,7 +126,15 @@ export default [
             // Included in customize: @stylistic/no-trailing-spaces
             // Included in customize: @stylistic/no-whitespace-before-property
             // Ignored: @stylistic/nonblock-statement-body-position
+            '@stylistic/object-curly-newline': ['error', {
+                multiline: true,
+                consistent: true,
+            }],
+            '@stylistic/object-curly-spacing': ['error', 'never'],
+            // Ignored: @stylistic/object-property-newline
+            // Ignored: @stylistic/one-var-declaration-per-line // Handled by one-var rule
 
+            'one-var': ['error', 'never'],
             curly: 'error',
             '@typescript-eslint/no-unused-vars': 'off', // Covered by TypeScript
         },

@@ -66,3 +66,9 @@ else {
 var fooc = bar > baz ? (_f424 > _f425 ? 1 : 3) : 2
 
 const funct42 = (a) => (~_f427() ? 2 : 3)
+
+let a247
+let b436
+let c547
+
+const x475 = {z: 1}
