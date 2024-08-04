@@ -11,7 +11,6 @@ export default [
     ...eslintTs.configs.recommended,
     stylistic.configs.customize({
         indent: 4,
-        quotes: 'single',
         semi: false,
         jsx: true,
         arrowParens: true,
@@ -133,6 +132,18 @@ export default [
             '@stylistic/object-curly-spacing': ['error', 'never'],
             // Ignored: @stylistic/object-property-newline
             // Ignored: @stylistic/one-var-declaration-per-line // Handled by one-var rule
+            // Included in customize: @stylistic/operator-linebreak
+            '@stylistic/padded-blocks': ['error',
+                'never',
+                {allowSingleLineBlocks: false},
+            ],
+            '@stylistic/padding-line-between-statements': ['error', {
+                blankLine: 'always',
+                prev: 'multiline-block-like',
+                next: '*',
+            }],
+            // Included in customize: @stylistic/quote-props
+            '@stylistic/quotes': ['error', 'single', {avoidEscape: true}],
 
             'one-var': ['error', 'never'],
             curly: 'error',

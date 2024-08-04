@@ -28,6 +28,7 @@ function * generator() {
     yield '44'
     yield '55'
 }
+
 generator()
 
 const _f424 = (foo) =>
@@ -71,4 +72,6 @@ let a247
 let b436
 let c547
 
-const x475 = {z: 1}
+const x34634 = {z: 1}
+
+const x34635 = `a string containing 'single' quotes`
