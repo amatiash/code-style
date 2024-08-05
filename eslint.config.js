@@ -147,6 +147,11 @@ export default [
             // Included in customize: @stylistic/semi
             // Included in customize: @stylistic/semi-spacing
             '@stylistic/semi-style': ['error', 'last'],
+            // Included in customize: @stylistic/space-before-blocks
+            // Included in customize: @stylistic/space-before-function-paren
+            // Included in customize: @stylistic/space-in-parens
+            // Included in customize: @stylistic/space-infix-ops
+            // Included in customize: @stylistic/space-unary-ops
 
             'one-var': ['error', 'never'],
             curly: 'error',
