@@ -143,6 +143,10 @@ export default [
             }],
             // Included in customize: @stylistic/quote-props
             '@stylistic/quotes': ['error', 'single', {avoidEscape: true}],
+            // Included in customize: @stylistic/rest-spread-spacing
+            // Included in customize: @stylistic/semi
+            // Included in customize: @stylistic/semi-spacing
+            '@stylistic/semi-style': ['error', 'last'],
 
             'one-var': ['error', 'never'],
             curly: 'error',

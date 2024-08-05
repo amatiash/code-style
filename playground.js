@@ -75,3 +75,15 @@ let c547
 const x34634 = {z: 1}
 
 const x34635 = `a string containing 'single' quotes`
+
+for (let i = 0; i < 10; i++) {
+    //
+}
+
+for (
+    let i = 0;
+    i < 10;
+    ++i
+) {
+    foo()
+}
