@@ -159,6 +159,12 @@ export default [
             // Included in customize: @stylistic/type-annotation-spacing
             // Included in customize: @stylistic/type-generic-spacing
             // Included in customize: @stylistic/type-named-tuple-spacing
+            '@stylistic/wrap-iife': ['error',
+                'inside',
+                {functionPrototypeMethods: true},
+            ],
+            // Ignored: @stylistic/wrap-regex
+            // Included in customize: @stylistic/yield-star-spacing
 
             'one-var': ['error', 'never'],
             curly: 'error',
