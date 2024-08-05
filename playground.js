@@ -91,3 +91,10 @@ for (
 ) {
     foo()
 }
+
+const x45353 = 0
+
+switch (x45353) {
+    case 0: break
+    default: foo()
+}

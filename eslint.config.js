@@ -153,6 +153,12 @@ export default [
             // Included in customize: @stylistic/space-infix-ops
             // Included in customize: @stylistic/space-unary-ops
             // Included in customize: @stylistic/spaced-comment
+            '@stylistic/switch-colon-spacing': 'error',
+            // Included in customize: @stylistic/template-curly-spacing
+            // Included in customize: @stylistic/template-tag-spacing
+            // Included in customize: @stylistic/type-annotation-spacing
+            // Included in customize: @stylistic/type-generic-spacing
+            // Included in customize: @stylistic/type-named-tuple-spacing
 
             'one-var': ['error', 'never'],
             curly: 'error',
