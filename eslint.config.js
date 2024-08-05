@@ -152,6 +152,7 @@ export default [
             // Included in customize: @stylistic/space-in-parens
             // Included in customize: @stylistic/space-infix-ops
             // Included in customize: @stylistic/space-unary-ops
+            // Included in customize: @stylistic/spaced-comment
 
             'one-var': ['error', 'never'],
             curly: 'error',
